@@ -1,4 +1,4 @@
-### Hi there 👋
+### Hi!🥰: Nice to see you !! 👋
 
 <!--
 **123-YUYUYU/123-YUYUYU** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
@@ -14,5 +14,4 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
-![YUYUYU's GitHub stats](https://github-readme-stats.vercel.app/api?username=123-YUYUYU&show_icons=true&theme=transparent)
 ![YUYUYU's Most used languages](https://github-readme-stats.vercel.app/api/top-langs/?username=123-YUYUYU&layout=compact&hide_border=true&langs_count=10)
