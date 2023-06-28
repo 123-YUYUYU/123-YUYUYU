@@ -1,5 +1,9 @@
 ### Hi!🥰: Nice to see you !! 👋
 
+<p align="center">
+   <img src="https://readme-typing-svg.herokuapp.com?color=28696B&size=21&center=true&lines=%E9%97%AA%E9%97%AA%E5%8F%91%E4%BA%AE%EF%BC%8C%E9%97%AA%E9%97%AA%E5%8F%91%E4%BA%AE;Achuan-2+%E7%A5%9D%E4%BD%A0%E4%BB%8A%E6%97%A5%E6%84%89%E5%BF%AB" alt="typing-svg">
+</p>
+
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Liu+Jian+Mao+Cao&size=32&duration=3000&pause=50&color=EB95869C&background=5D7DFF00&center=%E7%9C%9F&vCenter=%E7%9C%9F&repeat=%E7%9C%9F&width=435&lines=+123-YUYUYU;+%E7%90%83%E8%A6%81%E4%B8%80%E7%9B%B4%E6%89%93;+%E5%96%9C%E6%AC%A2%E7%9A%84%E4%BA%BA+%E8%A6%81%E4%B8%80%E7%9B%B4%E5%96%9C%E6%AC%A2%E5%93%A6)](https://git.io/typing-svg)
 
 <!--
