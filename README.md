@@ -25,5 +25,6 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
+![Metrics](https://metrics.lecoq.io/123-YUYUYU?template=classic&isocalendar=1&base=header%2C%20activity%2C%20community%2C%20repositories%2C%20metadata&base.indepth=false&base.hireable=false&base.skip=false&isocalendar=false&isocalendar.duration=half-year&config.timezone=Asia%2FShanghai)
 ![YUYUYU's Most used languages](https://github-readme-stats.vercel.app/api/top-langs/?username=123-YUYUYU&layout=compact&hide_border=true&langs_count=10)
 <div align=center><img src="VCG211374981852.jpg"></div>
