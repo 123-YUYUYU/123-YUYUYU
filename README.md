@@ -6,10 +6,11 @@
 </p>
 
 - ## <img src="https://media.giphy.com/media/12oufCB0MyZ1Go/giphy.gif" width="50"> I'm YU Haiqi
-- ####  💻:Embedded learning enthusiast 
+- #### 💻:Embedded learning enthusiast 
 - #### ➿:Electronic information for undergraduates
 - #### 🏸:Badminton fanatic!!! 
 - #### 💡: [This is my blog](https://123-yuyuyu.github.io/)
+- #### 🔖 ![Code](https://img.shields.io/badge/Code-C-informational?style=flat&logo=data:image/svg%2bxml;base64,<BASE64_DATA>&color=6495ED)  ![Code](https://img.shields.io/badge/Code-C++-informational?style=flat&logo=data:image/svg%2bxml;base64,<BASE64_DATA>&color=6A5ACD)  ![Code](https://img.shields.io/badge/Code-Python-informational?style=flat&logo=data:image/svg%2bxml;base64,<BASE64_DATA>&color=E0FFFF)  ![MCU](https://img.shields.io/badge/MCU-C51-informational?style=flat&logo=data:image/svg%2bxml;base64,"./img/svg/linux.svg"&color=F08080)  ![MCU](https://img.shields.io/badge/MCU-STM32-informational?style=flat&logo=data:image/svg%2bxml;base64,"./img/svg/linux.svg"&color=FFA500)  ![OS](https://img.shields.io/badge/OS-LINUX-informational?style=flat&logo=data:image/svg%2bxml;base64,"./img/svg/linux.svg"&color=FFE4B5)  ![OS](https://img.shields.io/badge/OS-ROS-informational?style=flat&logo=data:image/svg%2bxml;base64,<BASE64_DATA>&color=EEE8AA)  ![Editor](https://img.shields.io/badge/Editor-Visual_Studio_Code-informational?style=flat&logo=data:image/svg%2bxml;base64,<BASE64_DATA>&color=8FBC8F)  ![Editor](https://img.shields.io/badge/Editor-Keil5-informational?style=flat&logo=data:image/svg%2bxml;base64,<BASE64_DATA>&color=808000)  
 
 <!--
 **123-YUYUYU/123-YUYUYU** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
