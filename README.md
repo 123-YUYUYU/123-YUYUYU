@@ -1,5 +1,6 @@
 - # Hi!🥰: Nice to see you !! 👋
 <!-- [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Liu+Jian+Mao+Cao&size=32&pause=1000&color=EB95869C&background=5D7DFF00&center=%E7%9C%9F&vCenter=%E7%9C%9F&repeat=%E7%9C%9F&width=435&lines=+%E7%90%83%E8%A6%81%E4%B8%80%E7%9B%B4%E6%89%93;+%E5%96%9C%E6%AC%A2%E7%9A%84%E4%BA%BA+%E8%A6%81%E4%B8%80%E7%9B%B4%E5%96%9C%E6%AC%A2%E5%93%A6)](https://git.io/typing-svg)
+
 -->
 <p align="center">
 <img alt="loficity" width="600px" src="https://github.com/HyunCafe/HyunCafe/raw/main/assests/loficity.gif"</img>
