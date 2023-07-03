@@ -5,7 +5,7 @@
 <img alt="loficity" width="600px" src="https://github.com/HyunCafe/HyunCafe/raw/main/assests/loficity.gif"</img>
 </p>
 
-- ## <img src="https://media.giphy.com/media/12oufCB0MyZ1Go/giphy.gif" width="50"> I'm YU Haiqi
+- ## <img src="https://media.giphy.com/media/12oufCB0MyZ1Go/giphy.gif" width="50"> I'm Yu Haiqi
 - #### 💻:Embedded learning enthusiast 
 - #### ➿:Electronic information for undergraduates
 - #### 🏸:Badminton fanatic 
