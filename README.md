@@ -6,10 +6,10 @@ font=Liu+Jian+Mao+Cao&size=32&pause=1000&color=EB95869C&background=5D7DFF00&cent
 <img alt="loficity" width="600px" src="https://github.com/HyunCafe/HyunCafe/raw/main/assests/loficity.gif"</img>
 </p>
 
-- ## <img src="https://media.giphy.com/media/12oufCB0MyZ1Go/giphy.gif" width="50"> I'm Yu Haiqi
-- #### 💻:Embedded learning enthusiast 
-- #### ➿:Electronic information for undergraduates
-- #### 🏸:Badminton fanatic 
+- ## <img src="https://media.giphy.com/media/12oufCB0MyZ1Go/giphy.gif" width="50"> I'm Yu Haiqi 
+- #### ➿:Currently a master’s degree student at SHU
+- #### 💻:Learning something about Large Language Model(post training, reasoning, RL)
+- #### 🏸:Dream of a whole day of ball
 - #### 💡: [This is my blog](https://123-yuyuyu.github.io/)
 - #### 🔖 ![Code](https://img.shields.io/badge/Code-Python-informational?style=flat&logo=data:image/svg%2bxml;base64,<BASE64_DATA>&color=E0FFFF) ![Code](https://img.shields.io/badge/Code-C-informational?style=flat&logo=data:image/svg%2bxml;base64,<BASE64_DATA>&color=6495ED)  ![Code](https://img.shields.io/badge/Code-C++-informational?style=flat&logo=data:image/svg%2bxml;base64,<BASE64_DATA>&color=6A5ACD) ![Code](https://img.shields.io/badge/Code-Shell-informational?style=flat&logo=data:image/svg%2bxml;base64,"./img/svg/linux.svg"&color=FFA500)  ![FCU](https://img.shields.io/badge/FCU-A9-informational?style=flat&logo=data:image/svg%2bxml;base64,"./img/svg/linux.svg"&color=8B4513)  ![OS](https://img.shields.io/badge/OS-LINUX-informational?style=flat&logo=data:image/svg%2bxml;base64,"./img/svg/linux.svg"&color=FFE4B5)  ![OS](https://img.shields.io/badge/OS-ROS-informational?style=flat&logo=data:image/svg%2bxml;base64,<BASE64_DATA>&color=EEE8AA) 
 
