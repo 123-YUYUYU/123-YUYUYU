@@ -6,7 +6,7 @@ font=Liu+Jian+Mao+Cao&size=32&pause=1000&color=EB95869C&background=5D7DFF00&cent
 <img alt="loficity" width="600px" src="https://github.com/HyunCafe/HyunCafe/raw/main/assests/loficity.gif"</img>
 </p>
 
-- ## <img src="https://media.giphy.com/media/12oufCB0MyZ1Go/giphy.gif" width="50"> I'm Yu Haiqi 
+- ## <img src="https://media.giphy.com/media/12oufCB0MyZ1Go/giphy.gif" width="50"> This is Yu
 - #### ➿:Currently a master’s degree student at SHU
 - #### 💻:Learning something about Large Language Model(post training, reasoning, RL)
 - #### 🏸:Dream of a whole day of ball
