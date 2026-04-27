@@ -30,10 +30,7 @@ Here are some ideas to get you started:
 ---
 <div align = "center">
 
-</div>
-<div align = "center">
-<img src = "VCG211374981852.jpg">  
-</div>
+
 
 <!--START_SECTION:waka-->
 ![Code Time](http://img.shields.io/badge/Code%20Time-11%20mins-blue?style=flat)
