@@ -1,4 +1,9 @@
-- # Hi!🥰: Nice to see you !! 👋
+<div align="center">
+  <img
+    src="https://readme-typing-svg.herokuapp.com?font=Chiron+GoRound+TC&weight=700&size=32&duration=3000&pause=1000&color=F7A59D&center=true&vCenter=true&width=720&height=70&lines=Hi%21%F0%9F%A5%B0%3A+Nice+to+see+you+%21%21+%F0%9F%91%8B"
+    alt="Hi! Nice to see you!"
+  />
+</div>
 <!-- [![Typing SVG](https://readme-typing-svg.herokuapp.com?
 font=Liu+Jian+Mao+Cao&size=32&pause=1000&color=EB95869C&background=5D7DFF00&center=%E7%9C%9F&vCenter=%E7%9C%9F&repeat=%E7%9C%9F&width=435&lines=+%E7%90%83%E8%A6%81%E4%B8%80%E7%9B%B4%E6%89%93;+%E5%96%9C%E6%AC%A2%E7%9A%84%E4%BA%BA+%E8%A6%81%E4%B8%80%E7%9B%B4%E5%96%9C%E6%AC%A2%E5%93%A6)](https://git.io/typing-svg)
 -->
