@@ -10,12 +10,7 @@ font=Liu+Jian+Mao+Cao&size=32&pause=1000&color=EB95869C&background=5D7DFF00&cent
 <!-- <p align="center">
 <img alt="loficity" width="600px" src="https://github.com/HyunCafe/HyunCafe/raw/main/assests/loficity.gif"</img>
 </p> -->
-<div align="center">
-  <img
-    src="https://readme-typing-svg.herokuapp.com?font=Chiron+GoRound+TC&pause=1000&color=F7A59D&center=true&vCenter=true&width=600&height=50&lines=Hi%21%F0%9F%A5%B0%3A+Nice+to+see+you+%21%21+%F0%9F%91%8B"
-    alt="Typing SVG"
-  />
-</div>
+
 
 - ## <img src="https://media.giphy.com/media/12oufCB0MyZ1Go/giphy.gif" width="50"> This is Yu
 - #### ➿：Currently a master’s degree student at SHU
