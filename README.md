@@ -1,7 +1,20 @@
-<div align="center">
+
+<!-- <div align="center">
   <img
     src="https://readme-typing-svg.herokuapp.com?font=Chiron+GoRound+TC&weight=700&size=32&duration=3000&pause=1000&color=F7A59D&center=true&vCenter=true&width=720&height=70&lines=Hi%21%F0%9F%A5%B0%3A+Nice+to+see+you+%21%21+%F0%9F%91%8B"
     alt="Hi! Nice to see you!"
+  />
+</div> -->
+
+<img
+  width="100%"
+  src="https://capsule-render.vercel.app/api?type=soft&color=0:F5F7F8,100:DDE5E9&height=75&section=header"
+/>
+
+<div align="center">
+  <img
+    src="https://readme-typing-svg.herokuapp.com?font=Chiron+GoRound+TC&weight=700&size=32&duration=3000&pause=1200&color=607889&center=true&vCenter=true&width=720&height=65&lines=Hi%21%F0%9F%A5%B0%3A+Nice+to+see+you+%21%21+%F0%9F%91%8B"
+    alt="Typing SVG"
   />
 </div>
 <!-- [![Typing SVG](https://readme-typing-svg.herokuapp.com?
