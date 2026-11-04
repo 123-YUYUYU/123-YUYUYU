@@ -4,27 +4,72 @@ on:
   schedule:
     - cron: '0 0 * * *'
   workflow_dispatch:
+
+permissions:
+  contents: write
+
 jobs:
   update-readme:
     name: Update Readme with Metrics
     runs-on: ubuntu-latest
     steps:
-      - uses: anmol098/waka-readme-stats@master
+      # 下载已核对的 Action 源码，临时补充 OAuth 支持。
+      - name: Download Waka Readme action
+        uses: actions/checkout@v4
         with:
-          WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
+          repository: anmol098/waka-readme-stats
+          ref: 4db28e08bfd8bac570125799fe1cfdcb23a8c871
+          path: .waka-action
+          persist-credentials: false
+
+      - name: Enable WakaTime OAuth authentication
+        shell: python
+        run: |
+          from pathlib import Path
+
+          source = Path('.waka-action/sources/manager_download.py')
+          text = source.read_text(encoding='utf-8')
+          old_query = '?api_key={EM.WAKATIME_API_KEY}'
+          if text.count(old_query) != 2:
+              raise SystemExit('Unexpected WakaTime source; review OAuth patch.')
+          text = text.replace(old_query, '')
+          old_get = 'DownloadManager._client.get(url)'
+          new_get = '''DownloadManager._client.get(
+              url,
+              headers={"Authorization": f"Bearer {EM.WAKATIME_API_KEY}"}
+              if url.startswith(EM.WAKATIME_API_URL) else {},
+          )'''
+          if text.count(old_get) != 1:
+              raise SystemExit('Unexpected download source; review OAuth patch.')
+          text = text.replace(old_get, new_get)
+          compile(text, str(source), 'exec')
+          source.write_text(text, encoding='utf-8')
+
+          action = Path('.waka-action/action.yml')
+          text = action.read_text(encoding='utf-8')
+          old_image = "image: 'docker://wakareadmestats/waka-readme-stats:master'"
+          if text.count(old_image) != 1:
+              raise SystemExit('Unexpected action image; review OAuth patch.')
+          action.write_text(text.replace(old_image, "image: 'Dockerfile'"), encoding='utf-8')
+
+      - name: Update README
+        uses: ./.waka-action
+        with:
+          # 此 Secret 填写 WakaTime 个人 OAuth Token，名称保留以兼容原 Action。
+          WAKATIME_API_KEY: ${{ secrets.WAKATIME_OAUTH_TOKEN }}
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
           LOCALE: en
-          SHOW_LINES_OF_CODE: "True" # 显示截至日期写入的代码行数
-          SHOW_LOC_CHART: "False" # 年份不同季度编写的代码行数
-          SHOW_SHORT_INFO: "False" # 用户的简短趣闻信息
-          SHOW_OS: "True" # 显示系统
-          SHOW_PROJECTS: "False" # 显示项目
-          SHOW_TOTAL_CODE_TIME: "True" # 显示总编码时间
-          SHOW_COMMIT: "True" # 显示提交信息
-          SHOW_PROFILE_VIEWS: "False" # 设置为隐藏配置文件视图
-          SHOW_DAYS_OF_WEEK: "False"  # 一周中不同日期进行的提交
-          SHOW_LANGUAGE: "True" # 编码语言
-          SHOW_EDITORS: "True" # 编辑器
-          SHOW_LANGUAGE_PER_REPO: "True" #  
-          SYMBOL_VERSION: "2" # 设置为进度条的符
+          SHOW_LINES_OF_CODE: "True"
+          SHOW_LOC_CHART: "False"
+          SHOW_SHORT_INFO: "False"
+          SHOW_OS: "True"
+          SHOW_PROJECTS: "False"
+          SHOW_TOTAL_CODE_TIME: "True"
+          SHOW_COMMIT: "True"
+          SHOW_PROFILE_VIEWS: "False"
+          SHOW_DAYS_OF_WEEK: "False"
+          SHOW_LANGUAGE: "True"
+          SHOW_EDITORS: "True"
+          SHOW_LANGUAGE_PER_REPO: "True"
+          SYMBOL_VERSION: "2"
           SHOW_AI_CODING: "False"
