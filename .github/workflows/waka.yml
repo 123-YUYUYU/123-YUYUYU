@@ -42,8 +42,39 @@ jobs:
           if text.count(old_get) != 1:
               raise SystemExit('Unexpected download source; review OAuth patch.')
           text = text.replace(old_get, new_get)
+          # 202 表示统计仍在生成，等待后重试；避免发布缺少统计的 README。
+          old_status = '        if res.status_code == 200:\n            if convertor is None:'
+          retry = '\n'.join([
+              '        if resource.startswith("waka_"):',
+              '            for attempt in range(12):',
+              '                if res.status_code != 202:',
+              '                    break',
+              '                DBM.i(f"WakaTime stats are processing; retry {attempt + 1}/12...")',
+              '                await asyncio.sleep(15)',
+              '                res = await DownloadManager._client.get(',
+              '                    str(res.url),',
+              '                    headers={"Authorization": f"Bearer {EM.WAKATIME_API_KEY}"},',
+              '                )',
+              '                DownloadManager._REMOTE_RESOURCES_CACHE[resource] = res',
+              '            if res.status_code == 202:',
+              '                raise RuntimeError("WakaTime stats still processing. README was not pushed. Run workflow again later.")',
+              '',
+          ])
+          if text.count(old_status) != 1:
+              raise SystemExit('Unexpected response handling; review retry patch.')
+          text = text.replace(old_status, retry + old_status)
           compile(text, str(source), 'exec')
           source.write_text(text, encoding='utf-8')
+
+          # 将 Token 放在 HTTPS 密码位置，使用标准 GitHub 推送认证。
+          git_source = Path('.waka-action/sources/manager_github.py')
+          git_text = git_source.read_text(encoding='utf-8')
+          old_url = 'https://{push_token}@github.com/'
+          if git_text.count(old_url) != 1:
+              raise SystemExit('Unexpected Git authentication source; review patch.')
+          git_text = git_text.replace(old_url, 'https://x-access-token:{push_token}@github.com/')
+          compile(git_text, str(git_source), 'exec')
+          git_source.write_text(git_text, encoding='utf-8')
 
           action = Path('.waka-action/action.yml')
           text = action.read_text(encoding='utf-8')
@@ -58,6 +89,7 @@ jobs:
           # 此 Secret 填写 WakaTime 个人 OAuth Token，名称保留以兼容原 Action。
           WAKATIME_API_KEY: ${{ secrets.WAKATIME_OAUTH_TOKEN }}
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
+          PUSH_TOKEN: ${{ github.token }}
           LOCALE: en
           SHOW_LINES_OF_CODE: "True"
           SHOW_LOC_CHART: "False"
